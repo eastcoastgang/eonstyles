@@ -1,0 +1,429 @@
+.eon-contained {
+    background-color: #6200ee !important;
+    color: white !important;
+    display: inline-flex !important;
+    position: relative !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    letter-spacing: .0892857143em !important;
+    min-width: 64px !important;
+    vertical-align: middle !important;
+    border-radius: 4px !important;
+    padding: 6px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    transition: all 0.2s !important;
+    cursor: pointer !important;
+}
+
+.eon-contained:hover {
+    background-color: #5d00df !important;
+    transition: all 0.2s !important;
+}
+
+.eon-outlined {
+    background-color: transparent !important;
+    border: 1px solid #6200ee !important;
+    color: #6200ee !important;
+    display: inline-flex !important;
+    position: relative !important;
+    align-items: center !important;
+    letter-spacing: .0892857143em !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    min-width: 64px !important;
+    vertical-align: middle !important;
+    border-radius: 4px !important;
+    padding: 6px !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    transition: all 0.2s !important;
+    cursor: pointer !important;
+}
+
+.eon-outlined:hover {
+    background-color: rgb(98, 0, 238, 0.1) !important;
+    transition: all 0.2s !important;
+}
+
+.eon-text {
+    color: #6200ee !important;
+    display: inline-flex !important;
+    position: relative !important;
+    align-items: center !important;
+    letter-spacing: .0892857143em !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    min-width: 64px !important;
+    vertical-align: middle !important;
+    border-radius: 4px !important;
+    padding: 6px !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    transition: all 0.2s !important;
+    cursor: pointer !important;
+}
+
+.eon-text:hover {
+    background-color: rgb(98, 0, 238, 0.1) !important;
+    transition: all 0.2s !important;
+}
+
+/* BACKWARDS COMPATIBILTIY ____ IGNORE DONT USE NO SUPPORT DIE */
+
+.btn-eon-one {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    background-color: #fff !important;
+    color: #6200ee !important;
+    color: #000000 !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-one:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 4px !important;
+    background-color: #e6e3eb !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-one:active {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.btn-eon-two {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    background-color: #6200ee !important;
+    color: #fff !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-two:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-two:active {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.btn-eon-three {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    background-color: #EC4080 !important;
+    color: #fff !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-three:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-three:active {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-eon-four {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    background-color: rgb(255, 0, 0) !important;
+    color: #fff !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-four:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-four:active {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* Text BUTTONS */
+
+.btn-eon-text-one {
+
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    color: #000000 !important;
+    background-color: rgb(0, 0, 0,0.0) !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-text-one:hover {
+
+    background-color: rgb(0, 0, 0,0.1) !important;
+    transition: all 0.2s ease-in !important;
+
+}
+
+.btn-eon-text-two {
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    color: #6200ee !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-text-two:hover {
+
+    background-color: rgb(98, 0, 238,0.1) !important;
+
+}
+
+
+.btn-eon-text-three {
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    color: #EC4080 !important;
+
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-text-three:hover {
+
+    background-color: rgb(236, 64, 128,0.1) !important;
+
+}
+
+.btn-eon-text-four {
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    padding: 7px 20px !important;
+    color: rgb(255, 0, 0) !important;
+
+    font-weight: 500;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-eon-text-four:hover {
+
+    background-color: rgb(255, 0, 0,0.1) !important;
+
+}
+
+/* OLD BUTTONS btn-old- */
+
+.btn-old-primary {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer !important;
+    outline: none !important;
+    border-radius: 8px !important;
+    padding: 8px 20px !important;
+    background-color: #fff !important;
+    color: #6200ee !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-old-primary:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px !important;
+    outline: none !important;
+    padding: 8px 20px !important;
+    background-color: #e6e3eb !important;
+    color: #6200ee !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-old-primary:active {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* RAISED BUTTONS */
+
+.btn-old-raised {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer !important;
+    outline: none !important;
+    border-radius: 8px !important;
+    padding: 8px 20px !important;
+    background-color: #6200ee !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-old-raised:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px !important;
+    outline: none !important;
+    padding: 8px 20px !important;
+    background-color: #6200ee !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-old-raised:active {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* OUTLINE BUTTONS */
+
+.btn-old-secondary {
+    padding: 8px 20px !important;
+    outline: none !important;
+    border-radius: 8px !important;
+    background-color: rgb(98, 0, 238, 0.1) !important;
+    color: #6200ee !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-old-secondary:hover {
+    background-color: rgb(98, 0, 238, 0.2) !important;
+    border-radius: 8px !important;
+    padding: 8px 20px !important;
+    outline: none !important;
+    color: #6200EE !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-old-secondary:active {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* TEXT BUTTONS */
+
+.btn-old-text {
+    border-radius: 4px !important;
+    padding: 6px 20px !important;
+    color: #6200ee !important;
+    font-weight: bold !important;
+    outline: none !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.btn-old-text:hover {
+    background-color: rgb(98, 0, 238, 0.1) !important;
+    border-radius: 4px !important;
+    padding: 6px 20px !important;
+    color: #6200EE !important;
+    font-weight: bold !important;
+    outline: none !important;
+    text-transform: uppercase !important;
+    font-size: .875rem !important;
+    letter-spacing: .0892857143em !important;
+    transition: all 0.2s ease-in !important;
+}
+
+
+
+
+.scrollable {
+    overflow: auto !important;
+    white-space: nowrap !important;
+}
+.card {
+    border-radius: 15px !important;
+}
+p {
+    font-size: 18px !important;
+}
+.centeredx {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+}
+.centeredy {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translate(0,-50%) !important;
+}
+.centered {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%,-50%) !important;
+}
+
+
+.eon-outlined .waves-ripple {
+    background: rgb(98, 0, 238, 0.3) !important;
+}
+
+.eon-text .waves-ripple {
+    background: rgb(98, 0, 238, 0.3) !important;
+}
+
+
+
+.eon-select {
+  position: relative;
+  font-family: Arial;
+  letter-spacing: .0292857143em !important;
+  font-size: 14px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.eon-select select {
+  display: none; /*hide original SELECT element:*/
+  border-radius: 8px;
+}
+
+.doneicon {
+    background-image: linear-gradient(270deg, rgb(255, 0, 0), rgb(221, 0, 255));
+    padding: 6px;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;   
+}
